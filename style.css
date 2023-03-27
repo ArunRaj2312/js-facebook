@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #e0e7e547;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #125ee9;
+    margin: 20px 0px;
+}
+.create-box{
+    background-color: white;
+    width: 32%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+}
+.head{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.form{
+    padding: 15px;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    font-size: 14px;
+}
+i{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    color: red;
+    display: none;
+}
+.name-box{
+    display: flex;
+}
+.name-box div{
+    width: 50%;
+    padding: 5px;
+    position: relative;
+}
+.phone,.password{
+    padding: 5px;
+}
+.phone{
+    position: relative;
+}
+.password{
+    position: relative;
+}
+.gen{
+    padding: 5px;
+    position: relative;
+}
+.gen p{
+    margin: 5px 0px;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+}
+.gender div{
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.gender input{
+    width: 15px;
+}
+button{
+    padding: 7px 50px;
+    background-color: green;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+.date{
+    padding: 5px;
+    position: relative;
+}
+.date p{
+    margin: 5px 0px;
+}
+.date-of-birth{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    width:32%;
+    padding: 7px;
+    border-radius: 5px;
+}
+.content p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+.content span{
+    color: blue;
+}
+a{
+    text-align: center;
+}
+
+

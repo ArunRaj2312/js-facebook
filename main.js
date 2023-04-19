@@ -44,18 +44,6 @@ btn.addEventListener("click",function(){
         pass.style.border="1px solid gray";
         document.getElementById("pass-error").style.display="none";
     }
-    if(date.innerText==""){
-        date.style.border="1px solid red";
-    }
-    if(mon.innerText==""){
-        mon.style.border="1px solid red";
-    }
-    if(year.innerText==""){
-        year.style.border="1px solid red";
-    }
-    if(date.value=="" || mon.value=="" || year.value==""){
-        document.getElementById("date-error").style.display="flex";
-    }
     if(male.value=="" && female.value=="" && others.value==""){
         document.getElementById("gen-error").style.display="flex";
     }
@@ -65,7 +53,7 @@ btn.addEventListener("click",function(){
     obj={fname:fname.value,sname:sname.value,phone:phone.value,password:pass.value,date:date.innerText,month:mon.innerText,year:year.innerText,gender:gender.value}
     facebook[facebook.length]=obj;
     localStorage.setItem("facebook",JSON.stringify(facebook));
-    if(fname.value!="" && sname.value!="" && phone.value!="" && pass.value!="" && date.value=="" || mon.value=="" || year.value==""){
-        
+    if(fname.value!="" && sname.value!="" && phone.value!="" && pass.value!=""){
+     window.location.href='login.html'   
     }
 });
